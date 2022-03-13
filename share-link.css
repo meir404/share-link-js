@@ -1,0 +1,47 @@
+.share-link-button {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    border: none;
+    background-color: #ffffff00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-link-conntiner {
+    position: relative;
+    z-index: 999;
+}
+
+.share-link-list {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+button[class*="share-link-buttons"] {
+    /*position:absolute;*/
+}
+
+.share-link-buttons-whatsapp {
+    background-color: #25d366;
+}
+
+.share-link-buttons-facebook {
+    background-color: #3b5999;
+}
+
+.share-link-buttons-twitter {
+    background-color: #55acee;
+}
+
+.share-link-buttons-pin {
+    background-color: #24263d;
+}
+
+.share-link-buttons-mail {
+    background-color: gray;
+}
